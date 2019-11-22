@@ -1,3 +1,18 @@
-ul{
-  display: flex;
+header {
+    width: 100%;
+    background: #584472;
+    height: 70px;
+}
+
+.title {
+    font-size: 36px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 100px;
 }
