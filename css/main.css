@@ -1,9 +1,9 @@
 header {
     width: 100%;
+    margin: 0 auto;
     background: #584472;
     height: 70px;
 }
-
 .menu {
     list-style: none;
     display: flex;
@@ -16,7 +16,7 @@ ul {
     padding: 0;
     text-align: right;
     list-style: none;
-    height: 70px;
+    line-height: 10px;
 }
 
 li {
