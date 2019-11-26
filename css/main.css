@@ -4,19 +4,25 @@ header {
     background: #584472;
     height: 70px;
 }
-.menu {
-    list-style: none;
-    display: flex;
-    position: absolute;
-    z-index: -1;
+
+.title {
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: left;
 }
 
 ul {
     margin: auto;
     padding: 0;
     text-align: right;
-    list-style: none;
     line-height: 10px;
+
+ }
+.menu.ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    z-index: -1;
 }
 
 li {
@@ -28,15 +34,9 @@ ul li a {
     padding: 0 30px;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 10px;
+    padding-top: 0;
 }
 
 ul li a:hover {
     background: orange;
-}
-
-.title {
-    font-size: 30px;
-    padding-top: 15px;
-    text-align: left;
 }
