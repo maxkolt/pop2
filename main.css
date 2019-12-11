@@ -1,10 +1,47 @@
+h1 {
+    color: darkgrey;
+    font-family: Calibri Light;
+    padding-left: 35px;
+    right: 0px;
 
-header{
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top: 27px; /*делаем отступ сверху*/
+}
+
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background: #734e62; /*добавляем фон к пункту меню*/
+    color: #fff; /*меняем цвет ссылок*/
+    padding: 10px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    border-radius: 4px; /*добавляем скругление*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+a:hover {
+    background: #893431; /*добавляем эффект при наведении*/
+}
+
+li {
+    float: left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right: 15px; /*Добавляем отступ у пунктов меню*/
+}
+
+header {
+    margin-top: 0px;
     width: 100%;
-    background: gold;
+    background: #25162e;
     height: 50px;
 }
-.title{
+
+.title {
     font-size: 36px;
     padding-top: 10px;
     text-align: center;
@@ -13,30 +50,6 @@ header{
     list-style: none;
     position: absolute;
     top: 10px;
-    right: 100px;
+    right: 50px;
 }
-ul {
-    list-style: none; /*убираем маркеры списка*/
-    margin: 0; /*убираем отступы*/
-    padding-left: 0; /*убираем отступы*/
-    margin-top:25px; /*делаем отступ сверху*/
-}
-a {
-    text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    background:#30A8E6; /*добавляем фон к пункту меню*/
-    color:#fff; /*меняем цвет ссылок*/
-    padding:10px; /*добавляем отступ*/
-    font-family: arial; /*меняем шрифт*/
-    border-radius:4px; /*добавляем скругление*/
-    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
-    -o-transition: all 0.3s 0.01s ease;
-    -webkit-transition: all 0.3s 0.01s ease;
-}
-a:hover {
-    background:#1C85BB;/*добавляем эффект при наведении*/
-}
-li {
-    float:left; /*Размещаем список горизонтально для реализации меню*/
-    margin-right:5px; /*Добавляем отступ у пунктов меню*/
 
-}
