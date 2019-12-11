@@ -1,16 +1,15 @@
-h1 {
+h1{
     color: darkgrey;
     font-family: Calibri Light;
     padding-left: 35px;
-    right: 0px;
-
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-
 ul {
     list-style: none; /*убираем маркеры списка*/
     margin: 0; /*убираем отступы*/
     padding-left: 0; /*убираем отступы*/
-    margin-top: 27px; /*делаем отступ сверху*/
+    margin-top: 25px; /*делаем отступ сверху*/
 }
 
 a {
@@ -19,7 +18,7 @@ a {
     color: #fff; /*меняем цвет ссылок*/
     padding: 10px; /*добавляем отступ*/
     font-family: arial; /*меняем шрифт*/
-    border-radius: 4px; /*добавляем скругление*/
+    border-radius: 15px; /*добавляем скругление*/
     -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
     -o-transition: all 0.3s 0.01s ease;
     -webkit-transition: all 0.3s 0.01s ease;
@@ -35,10 +34,12 @@ li {
 }
 
 header {
-    margin-top: 0px;
+    margin-top: 50px;
     width: 100%;
     background: #25162e;
-    height: 50px;
+    height: 70px;
+    margin: 0; /*убираем отступы*/
+    padding-left: 0;
 }
 
 .title {
