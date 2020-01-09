@@ -88,5 +88,7 @@ h3{
     font-family: "Comic Sans MS";
 }
 
-
+.blocs{
+display: inline-flex;
+}
 
