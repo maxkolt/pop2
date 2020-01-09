@@ -88,41 +88,5 @@ h3{
     font-family: "Comic Sans MS";
 }
 
-.content_blok{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
 
-.blok1{
-     line-height: 30px;
-     color: #020202;
-     width: 15px;
-     margin: 0 auto;
-     padding-top: 10px;
-     font-size: 20px;
-     font-family: "Comic Sans MS";
 
- }
-.blok2{
-    line-height: 20px;
-    color: #020202;
-    width: 30px;
-    margin: 0 auto;
-    padding-top: 10px;
-    font-size: 20px;
-    font-family: "Comic Sans MS";
-
-}
-.blok3{
-    line-height: 20px;
-    color: #020202;
-    width: 30px;
-    margin: 0 auto;
-    padding-top: 10px;
-    font-size: 20px;
-    font-family: "Comic Sans MS";
-
-}
