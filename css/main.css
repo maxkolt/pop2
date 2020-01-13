@@ -88,9 +88,14 @@ h3{
     font-family: "Comic Sans MS";
 }
 
+   p {
+       margin-left: 25%;
+       padding-top: 0;
+}
 
-
-
+h4{
+    text-align: center;
+}
 
 
 
