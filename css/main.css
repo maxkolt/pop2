@@ -159,8 +159,8 @@ h3 {
 .colonas2 {
     display: flex;
     /*width: 200px;*/
-    height: 200px;
+    height: 100px;
     float: left;
-    margin: 50px 25px 25px 300px;
+    margin: 50px 25px 25px 50px;
     padding: 20px;
 }
