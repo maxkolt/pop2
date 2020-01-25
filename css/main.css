@@ -170,3 +170,45 @@ h3 {
 .images1, .images2, .images3 {
     margin-left: 12%;
 }
+
+
+
+
+
+
+#blue h4 {
+    color: #197857;
+    font-weight: 700;
+}
+
+#blue p {
+    color: #077849;
+    text-align: center;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+
+#lg {
+    background: #ebebeb;
+
+    text-align: center;
+}
+
+#lg h4 {
+    font-weight: 700;
+}
+
+
+.w {
+    padding-top: 3px;
+}
+
+.w h4 {
+    font-weight: 700;
+}
+
+
