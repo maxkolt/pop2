@@ -226,10 +226,15 @@ a:before, a:after {
 
 .img-circle{
     border-radius: 50px;
-
-
-}
-.row centered, h4{
-    padding-left: 15%;
 }
 
+.row{
+    text-align: center;
+}
+ .row centered, h4{
+     padding-left: 15%;
+
+ }
+.row centered{
+padding-right: 55%;
+}
