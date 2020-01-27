@@ -49,9 +49,9 @@ nav {
 }
 
 body {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
     margin-top: 0;
 }
 h3{
@@ -187,13 +187,8 @@ h3 {
 }
 
 
-.centered {
-    text-align: center;
-}
-
-
 #lg {
-    background: #ebebeb;
+    background: orange;
 
     text-align: center;
 }
@@ -228,3 +223,13 @@ a:hover, a:focus {
 a:before, a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
+
+.img-circle{
+    border-radius: 50px;
+
+
+}
+.row centered, h4{
+    padding-left: 15%;
+}
+
