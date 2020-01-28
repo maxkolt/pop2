@@ -237,7 +237,9 @@ a:before, a:after {
 }
 
 .col-lg-12 {
-    background-color: aqua;
+    background-color: #a3ffb5;
+    background: rgba(7, 120, 73, 0.4);
+
 }
 
 div.row.centered {
