@@ -89,7 +89,7 @@ h3{
 }
 
 p {
-    margin-left: 15%;
+   /* margin-left: 15%;*/
     padding-top: 0;
     margin-top: 0;
     font-family: "Comic Sans MS";
@@ -224,17 +224,22 @@ a:before, a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-.img-circle{
+.img-circle {
     border-radius: 50px;
+    display: inline-block;
+    width: 100px;
+    border: 2px solid #197857;
+
 }
 
-.row{
+.row {
     text-align: center;
 }
- .row centered, h4{
-     padding-left: 15%;
 
- }
-.row centered{
-padding-right: 55%;
+.col-lg-12 {
+    background-color: aqua;
+}
+
+div.row.centered {
+    padding-top: 5%;
 }
